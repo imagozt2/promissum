@@ -1,0 +1,39 @@
+<BFTypedBinder binderType="PromissuiMaimago_Adult_F">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Chondrichthyes>
+                  <Carcharhiniformes>
+                     <Carcharhinidae>
+                        <PromissuiMaimago>
+                           <PromissuiMaimago_Adult>
+                              <PromissuiMaimago_Adult_F/>
+                           </PromissuiMaimago_Adult>
+                        </PromissuiMaimago>
+                     </Carcharhinidae>
+                  </Carcharhiniformes>
+               </Chondrichthyes>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared b_Male="0"/>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\PromissuiMaimago\PromissuiMaimago_Adult_F_icon.dds" />
+         </UIAspect>
+      </UIToggleButton>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance b_Pregnant="false"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>
